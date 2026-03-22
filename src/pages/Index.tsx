@@ -327,10 +327,14 @@ const Index = () => {
                       <p className="text-gray-600">Фестиваль «А музы не молчат!»</p>
                     </div>
                   </div>
-                  <div className="flex items-center gap-2 text-sm text-gray-600 mb-4">
+                  <div className="flex items-center gap-2 text-sm text-gray-600 mb-2">
                     <Icon name="MapPin" size={14} />
                     <span>д. Борки, Великолукский район, Псковская обл.</span>
                   </div>
+                  <a href="tel:+79113714786" className="flex items-center gap-2 text-sm text-gray-600 mb-4 hover:text-black transition-colors">
+                    <Icon name="Phone" size={14} />
+                    <span>8-911-371-47-86</span>
+                  </a>
                   <Button className="w-full bg-black text-white hover:bg-gray-800 rounded-lg flex items-center justify-center gap-2">
                     <Mail className="w-4 h-4" />
                     Написать организаторам
