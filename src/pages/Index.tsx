@@ -156,6 +156,29 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Organizers Section */}
+      <section className="relative z-10 py-12 px-6">
+        <div className="max-w-7xl mx-auto">
+          <div className="rounded-3xl bg-white/5 ring-1 ring-white/10 backdrop-blur p-10">
+            <h3 className="text-sm font-bold uppercase tracking-widest text-white/50 text-center mb-8">Организаторы</h3>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="rounded-2xl bg-white/5 ring-1 ring-white/10 p-6 text-center">
+                <Icon name="Star" size={24} className="mx-auto mb-3 text-[#C4855A]" />
+                <p className="text-white/90 font-medium leading-snug">АНО «Центр творчества и досуга "Радуга"»</p>
+              </div>
+              <div className="rounded-2xl bg-white/5 ring-1 ring-white/10 p-6 text-center">
+                <Icon name="BookOpen" size={24} className="mx-auto mb-3 text-[#C4855A]" />
+                <p className="text-white/90 font-medium leading-snug">Литературно-художественный музей имени писателя И.А.&nbsp;Васильева</p>
+              </div>
+              <div className="rounded-2xl bg-white/5 ring-1 ring-white/10 p-6 text-center">
+                <Icon name="MapPin" size={24} className="mx-auto mb-3 text-[#C4855A]" />
+                <p className="text-white/90 font-medium leading-snug">Культурно-информационный центр Великолукского района</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Program Section */}
       <section className="relative z-10 py-24 px-6">
         <div className="max-w-7xl mx-auto">
@@ -365,7 +388,12 @@ const Index = () => {
                 <p className="text-white/80 leading-relaxed text-pretty">
                   Ежегодный фестиваль фронтовой поэзии в деревне Борки Великолукского района Псковской области. Память живёт в слове.
                 </p>
-                <p className="text-white/50 text-sm mt-3">Организатор: АНО «Центр творчества и досуга "Радуга"»</p>
+                <div className="text-white/50 text-sm mt-3 space-y-1">
+                  <p>Организаторы:</p>
+                  <p>АНО «Центр творчества и досуга "Радуга"»</p>
+                  <p>Литературно-художественный музей имени И.А.&nbsp;Васильева</p>
+                  <p>Культурно-информационный центр Великолукского района</p>
+                </div>
               </div>
 
               <div>
