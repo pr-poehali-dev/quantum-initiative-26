@@ -87,7 +87,7 @@ const Index = () => {
 
         {/* Hero Content */}
         <div className="relative z-10 flex flex-col items-center justify-center min-h-[calc(100vh-120px)] px-6 text-center">
-          <div className="mb-6 px-4 py-2 bg-black/40 ring-1 ring-white/20 backdrop-blur rounded-full">
+          <div className="mb-6 px-4 py-2 bg-[#C4855A]/80 ring-1 ring-[#C4855A] backdrop-blur rounded-full">
             <span className="text-sm font-medium">2–3 мая 2026 · Борки, Псковская область</span>
           </div>
 
