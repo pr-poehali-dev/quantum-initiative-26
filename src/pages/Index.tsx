@@ -1,6 +1,7 @@
 import { BookOpen, Heart, Music, Star, Users, Calendar, MapPin, Plus, Minus, Mail } from "lucide-react"
 import Icon from "@/components/ui/icon"
 import { Button } from "@/components/ui/button"
+import { Link } from "react-router-dom"
 import { useState } from "react"
 
 interface FAQ {
@@ -69,7 +70,10 @@ const Index = () => {
           </div>
 
           <div className="hidden md:flex items-center gap-1">
-            {["О фестивале", "Программа", "История", "Вопросы", "Контакты"].map((item) => (
+            <Link to="/about" className="px-4 py-2 bg-[#C4855A]/80 ring-1 ring-[#C4855A] backdrop-blur rounded-full hover:bg-[#C4855A] transition-colors">
+              О фестивале
+            </Link>
+            {["Программа", "История", "Вопросы", "Контакты"].map((item) => (
               <a
                 key={item}
                 href="#"
