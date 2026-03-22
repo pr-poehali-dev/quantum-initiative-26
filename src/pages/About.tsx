@@ -97,6 +97,19 @@ const About = () => {
         <div>
           <h2 className="text-3xl md:text-4xl font-bold mb-8 text-[#C4855A]">Иван Афанасьевич Васильев</h2>
 
+          <div className="flex justify-center mb-8">
+            <div className="rounded-2xl overflow-hidden ring-1 ring-white/10 shadow-2xl max-w-xs w-full">
+              <img
+                src="https://cdn.poehali.dev/projects/9e05ba0e-d727-4f3f-85be-4d3b8622c368/bucket/9015c673-1d8a-4e44-8f16-e982544dc58e.jpg"
+                alt="Иван Афанасьевич Васильев"
+                className="w-full object-cover"
+              />
+              <div className="bg-white/5 px-4 py-2 text-sm text-white/50 text-center">
+                Иван Афанасьевич Васильев (1924–1994)
+              </div>
+            </div>
+          </div>
+
           <div className="rounded-3xl bg-white/5 ring-1 ring-white/10 p-10 space-y-6 text-white/85 leading-relaxed text-lg">
             <p>
               Сам Иван Афанасьевич в период войны воевал на передовой, на Калининском фронте, был тяжело контужен, а с 1944 года после госпиталя продолжил службу в Закавказском военном округе до июля 1946 года.
