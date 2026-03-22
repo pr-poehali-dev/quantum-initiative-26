@@ -80,7 +80,7 @@ const Index = () => {
         {/* Hero Content */}
         <div className="relative z-10 flex flex-col items-center justify-center min-h-[calc(100vh-120px)] px-6 text-center">
           <div className="mb-6 px-4 py-2 bg-black/40 ring-1 ring-white/20 backdrop-blur rounded-full">
-            <span className="text-sm font-medium">Ежегодный фестиваль фронтовой поэзии · Борки, Псковская область</span>
+            <span className="text-sm font-medium">2–3 мая 2026 · Борки, Псковская область</span>
           </div>
 
           <h1 className="text-5xl md:text-8xl font-light tracking-tight mb-6 text-balance">
@@ -157,7 +157,7 @@ const Index = () => {
             <div className="text-center mb-16">
               <h2 className="text-5xl md:text-6xl font-bold tracking-tight mb-6 text-balance">Программа фестиваля</h2>
               <p className="text-xl text-white/80 max-w-3xl mx-auto text-pretty">
-                Три дня поэзии, памяти и живого общения на псковской земле.
+                2–3 мая 2026 года — два дня поэзии, памяти и живого общения на псковской земле.
               </p>
             </div>
 
@@ -412,7 +412,7 @@ const Index = () => {
             </div>
 
             <div className="border-t border-white/10 pt-8">
-              <p className="text-white/60 text-sm text-center">© 2026 Фестиваль «А музы не молчат!» · д. Борки, Псковская область</p>
+              <p className="text-white/60 text-sm text-center">© 2026 Фестиваль «А музы не молчат!» · 2–3 мая · д. Борки, Псковская область</p>
             </div>
           </div>
         </div>
