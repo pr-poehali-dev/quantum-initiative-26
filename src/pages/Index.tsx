@@ -53,10 +53,18 @@ const Index = () => {
           <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-black/85" />
         </div>
 
+        {/* Logo above nav */}
+        <div className="relative z-10 flex justify-start px-6 pt-6">
+          <img
+            src="https://cdn.poehali.dev/projects/9e05ba0e-d727-4f3f-85be-4d3b8622c368/bucket/ce371f78-cb47-4c2f-9c09-c18840d0cebb.png"
+            alt="Логотип фестиваля"
+            className="w-24 h-24 object-contain drop-shadow-2xl"
+          />
+        </div>
+
         {/* Navigation */}
-        <nav className="relative z-10 flex items-center justify-between p-6">
+        <nav className="relative z-10 flex items-center justify-between px-6 py-3">
           <div className="flex items-center gap-2 px-4 py-2 bg-black/40 ring-1 ring-white/20 backdrop-blur rounded-full">
-            <img src="https://cdn.poehali.dev/projects/9e05ba0e-d727-4f3f-85be-4d3b8622c368/bucket/ce371f78-cb47-4c2f-9c09-c18840d0cebb.png" alt="Логотип фестиваля" className="w-8 h-8 object-contain" />
             <span className="font-medium text-balance">А музы не молчат!</span>
           </div>
 
