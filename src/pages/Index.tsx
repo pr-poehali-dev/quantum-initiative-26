@@ -323,8 +323,8 @@ const Index = () => {
                       <Icon name="BookOpen" size={28} />
                     </div>
                     <div>
-                      <h4 className="text-lg font-semibold">Организационный комитет</h4>
-                      <p className="text-gray-600">Фестиваль «А музы не молчат!»</p>
+                      <h4 className="text-lg font-semibold">Светлана Размыслович</h4>
+                      <p className="text-gray-600">Организатор фестиваля</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-2 text-sm text-gray-600 mb-2">
