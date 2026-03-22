@@ -64,7 +64,7 @@ const Index = () => {
 
         {/* Navigation */}
         <nav className="relative z-10 flex items-center justify-between px-6 py-3">
-          <div className="flex items-center gap-2 px-4 py-2 bg-black/40 ring-1 ring-white/20 backdrop-blur rounded-full">
+          <div className="flex items-center gap-2 px-4 py-2 bg-[#C4855A]/80 ring-1 ring-[#C4855A] backdrop-blur rounded-full">
             <span className="font-medium text-balance">А музы не молчат!</span>
           </div>
 
@@ -73,7 +73,7 @@ const Index = () => {
               <a
                 key={item}
                 href="#"
-                className="px-4 py-2 bg-black/40 ring-1 ring-white/20 backdrop-blur rounded-full hover:bg-black/50 transition-colors"
+                className="px-4 py-2 bg-[#C4855A]/80 ring-1 ring-[#C4855A] backdrop-blur rounded-full hover:bg-[#C4855A] transition-colors"
               >
                 {item}
               </a>
