@@ -39,7 +39,7 @@ const Index = () => {
   ]
 
   return (
-    <div className="min-h-screen bg-[#0B0F12] text-white">
+    <div className="min-h-screen bg-[#1A0F0A] text-white">
       {/* Hero Section */}
       <div className="relative min-h-screen">
         {/* Background Image with Overlay */}
@@ -73,7 +73,7 @@ const Index = () => {
           </div>
 
           <div className="flex items-center gap-3">
-            <Button className="bg-white text-black hover:bg-white/90 rounded-full px-6">Участвовать</Button>
+            <Button className="bg-[#8B3A2A] text-white hover:bg-[#A0432F] rounded-full px-6">Участвовать</Button>
           </div>
         </nav>
 
@@ -98,7 +98,7 @@ const Index = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-16">
-            <Button size="lg" className="bg-white text-black hover:bg-white/90 rounded-full px-8 py-4 text-lg">
+            <Button size="lg" className="bg-[#8B3A2A] text-white hover:bg-[#A0432F] rounded-full px-8 py-4 text-lg">
               Подать заявку
             </Button>
             <Button
@@ -212,7 +212,7 @@ const Index = () => {
             <div className="text-center">
               <Button
                 size="lg"
-                className="bg-white text-black hover:bg-white/90 rounded-full px-12 py-4 text-lg font-semibold"
+                className="bg-[#8B3A2A] text-white hover:bg-[#A0432F] rounded-full px-12 py-4 text-lg font-semibold"
               >
                 Подать заявку на участие
               </Button>
@@ -310,7 +310,7 @@ const Index = () => {
                       placeholder="Откуда вы, какие произведения планируете представить..."
                     />
                   </div>
-                  <Button className="w-full bg-black text-white hover:bg-gray-800 rounded-lg py-3 font-normal text-base">
+                  <Button className="w-full bg-[#8B3A2A] text-white hover:bg-[#A0432F] rounded-lg py-3 font-normal text-base">
                     Отправить заявку
                   </Button>
                 </form>
@@ -341,7 +341,7 @@ const Index = () => {
                     <Icon name="Phone" size={14} />
                     <span>8-911-371-47-86</span>
                   </a>
-                  <Button className="w-full bg-black text-white hover:bg-gray-800 rounded-lg flex items-center justify-center gap-2">
+                  <Button className="w-full bg-[#8B3A2A] text-white hover:bg-[#A0432F] rounded-lg flex items-center justify-center gap-2">
                     <Mail className="w-4 h-4" />
                     Написать организаторам
                   </Button>
@@ -416,7 +416,7 @@ const Index = () => {
                     placeholder="Введите ваш email"
                     className="flex-1 px-4 py-3 rounded-lg bg-white/5 ring-1 ring-white/20 backdrop-blur border-0 text-white placeholder:text-white/50 focus:ring-2 focus:ring-white/30 focus:outline-none"
                   />
-                  <Button className="bg-white text-black hover:bg-white/90 rounded-lg px-6 h-[50px]">Подписаться</Button>
+                  <Button className="bg-[#8B3A2A] text-white hover:bg-[#A0432F] rounded-lg px-6 h-[50px]">Подписаться</Button>
                 </div>
               </div>
             </div>
