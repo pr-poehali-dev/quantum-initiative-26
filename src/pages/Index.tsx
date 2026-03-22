@@ -87,12 +87,6 @@ const Index = () => {
 
         {/* Hero Content */}
         <div className="relative z-10 flex flex-col items-center justify-center min-h-[calc(100vh-120px)] px-6 text-center">
-          <img
-            src="https://cdn.poehali.dev/projects/9e05ba0e-d727-4f3f-85be-4d3b8622c368/bucket/ce371f78-cb47-4c2f-9c09-c18840d0cebb.png"
-            alt="Логотип фестиваля"
-            className="w-40 h-40 md:w-56 md:h-56 object-contain mb-6 drop-shadow-2xl"
-          />
-
           <div className="mb-6 px-4 py-2 bg-black/40 ring-1 ring-white/20 backdrop-blur rounded-full">
             <span className="text-sm font-medium">2–3 мая 2026 · Борки, Псковская область</span>
           </div>
