@@ -56,7 +56,7 @@ const Index = () => {
         {/* Navigation */}
         <nav className="relative z-10 flex items-center justify-between p-6">
           <div className="flex items-center gap-2 px-4 py-2 bg-black/40 ring-1 ring-white/20 backdrop-blur rounded-full">
-            <Icon name="BookOpen" size={18} />
+            <img src="https://cdn.poehali.dev/projects/9e05ba0e-d727-4f3f-85be-4d3b8622c368/bucket/ce371f78-cb47-4c2f-9c09-c18840d0cebb.png" alt="Логотип фестиваля" className="w-8 h-8 object-contain" />
             <span className="font-medium text-balance">А музы не молчат!</span>
           </div>
 
@@ -352,8 +352,8 @@ const Index = () => {
           <div className="rounded-3xl bg-white/[0.03] backdrop-blur-2xl ring-1 ring-white/10 p-12">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-12">
               <div className="lg:col-span-2">
-                <div className="flex items-center gap-2 mb-6">
-                  <Icon name="BookOpen" size={22} />
+                <div className="flex items-center gap-3 mb-6">
+                  <img src="https://cdn.poehali.dev/projects/9e05ba0e-d727-4f3f-85be-4d3b8622c368/bucket/ce371f78-cb47-4c2f-9c09-c18840d0cebb.png" alt="Логотип фестиваля" className="w-12 h-12 object-contain" />
                   <span className="text-xl font-semibold">А музы не молчат!</span>
                 </div>
                 <p className="text-white/80 leading-relaxed text-pretty">
