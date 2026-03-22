@@ -330,7 +330,7 @@ const Index = () => {
                     </div>
                     <div>
                       <h4 className="text-lg font-semibold">Светлана Размыслович</h4>
-                      <p className="text-gray-600">Организатор фестиваля</p>
+                      <p className="text-gray-600 text-sm">АНО «Центр творчества и досуга "Радуга"»</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-2 text-sm text-gray-600 mb-2">
@@ -365,6 +365,7 @@ const Index = () => {
                 <p className="text-white/80 leading-relaxed text-pretty">
                   Ежегодный фестиваль фронтовой поэзии в деревне Борки Великолукского района Псковской области. Память живёт в слове.
                 </p>
+                <p className="text-white/50 text-sm mt-3">Организатор: АНО «Центр творчества и досуга "Радуга"»</p>
               </div>
 
               <div>
