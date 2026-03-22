@@ -3,6 +3,23 @@ import { Button } from "@/components/ui/button"
 import { Link } from "react-router-dom"
 import { useState } from "react"
 
+interface YearData {
+  photos?: string[]
+  description?: string
+}
+
+const yearData: Record<number, YearData> = {
+  2008: {
+    photos: [
+      "https://cdn.poehali.dev/projects/9e05ba0e-d727-4f3f-85be-4d3b8622c368/bucket/4f900e0d-f3e9-4edc-86b8-72b31f7cf868.jpg",
+      "https://cdn.poehali.dev/projects/9e05ba0e-d727-4f3f-85be-4d3b8622c368/bucket/60df611d-0f8b-42d3-a8de-3c16ffd93d46.jpg",
+      "https://cdn.poehali.dev/projects/9e05ba0e-d727-4f3f-85be-4d3b8622c368/bucket/8dfe728d-594a-4d2e-9332-18d3e5547ccd.jpg",
+      "https://cdn.poehali.dev/projects/9e05ba0e-d727-4f3f-85be-4d3b8622c368/bucket/f9f76e6f-8380-4a7f-9aa5-9a4338b9a791.jpg",
+      "https://cdn.poehali.dev/projects/9e05ba0e-d727-4f3f-85be-4d3b8622c368/bucket/c539d9ff-6cef-4e1b-bcf3-73236bea66b4.jpg",
+    ],
+  },
+}
+
 const years = [
   2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015,
   2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025,
@@ -86,13 +103,34 @@ const History = () => {
                       className="text-white/40"
                     />
                   </div>
-                  <p className="text-white/50 text-sm mt-1">Фестиваль фронтовой поэзии · Борки</p>
+                  <p className="text-white/50 text-sm mt-1">
+                    Фестиваль фронтовой поэзии · Борки
+                    {yearData[year]?.photos && (
+                      <span className="ml-2 text-[#C4855A]">· {yearData[year].photos!.length} фото</span>
+                    )}
+                  </p>
 
                   {openYear === year && (
-                    <div className="mt-4 pt-4 border-t border-white/10">
-                      <p className="text-white/60 text-sm leading-relaxed italic">
-                        Описание фестиваля {year} года будет добавлено. Вы можете прислать фотографии и материалы организаторам.
-                      </p>
+                    <div className="mt-4 pt-4 border-t border-white/10" onClick={(e) => e.stopPropagation()}>
+                      {yearData[year]?.description && (
+                        <p className="text-white/80 text-sm leading-relaxed mb-4">{yearData[year].description}</p>
+                      )}
+                      {yearData[year]?.photos ? (
+                        <div className="grid grid-cols-2 gap-2">
+                          {yearData[year].photos!.map((url, i) => (
+                            <img
+                              key={i}
+                              src={url}
+                              alt={`Фестиваль ${year}, фото ${i + 1}`}
+                              className="rounded-lg object-cover w-full h-36 hover:opacity-90 transition-opacity cursor-pointer"
+                            />
+                          ))}
+                        </div>
+                      ) : (
+                        <p className="text-white/40 text-sm leading-relaxed italic">
+                          Фотографии и описание будут добавлены. Вы можете прислать материалы организаторам.
+                        </p>
+                      )}
                     </div>
                   )}
                 </button>
