@@ -73,7 +73,10 @@ const Index = () => {
             <Link to="/about" className="px-4 py-2 bg-[#C4855A]/80 ring-1 ring-[#C4855A] backdrop-blur rounded-full hover:bg-[#C4855A] transition-colors">
               О фестивале
             </Link>
-            {["Программа", "История", "Вопросы", "Контакты"].map((item) => (
+            <Link to="/history" className="px-4 py-2 bg-[#C4855A]/80 ring-1 ring-[#C4855A] backdrop-blur rounded-full hover:bg-[#C4855A] transition-colors">
+              История
+            </Link>
+            {["Программа", "Вопросы", "Контакты"].map((item) => (
               <a
                 key={item}
                 href="#"
